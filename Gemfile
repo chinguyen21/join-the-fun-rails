@@ -14,8 +14,11 @@ group :development, :test do
   gem 'rack_session_access'
   gem "capybara"
   gem "database_cleaner"
+  gem "pry"
   gem "pry-byebug"
   gem "rspec-rails"
+  gem "pry-rescue"
+  gem "pry-rails"
 end
 
 group :test do
